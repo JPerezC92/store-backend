@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { AppController } from './app.controller';
-import { ProductsModule } from './Storehouse/Products/Infrastructure';
+import { InventoryModule } from './Inventory/inventory.module';
 
 @Module({
   imports: [
-    ProductsModule,
+    InventoryModule,
     ConfigModule.forRoot({ envFilePath: '.env.development' }),
   ],
   controllers: [AppController],

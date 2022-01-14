@@ -1,8 +1,4 @@
 {
-    "exportall.config.folderListener": [
-        "/src/Storehouse/Products/Domain"
-    ],
-    "exportall.config.relExclusion": [
-        "/src/SharedKernel/Domain/ValueObject"
-    ]
+    "exportall.config.folderListener": [],
+    "exportall.config.relExclusion": []
 }
